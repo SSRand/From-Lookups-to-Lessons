@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">ResMem</title>
+  <desc id="desc">Blue prediction bars with an orange residual added to the center bar, and a circled plus inside a rounded blue badge.</desc>
+  <!-- Frozen backbone: a simple badge with generous favicon-safe margins. -->
+  <rect x="12" y="12" width="232" height="232" rx="44" fill="#DCE9F7" stroke="#1F3A6E" stroke-width="8"/>
+  <!-- Base prediction. The center bar shares a seamless edge with its residual. -->
+  <rect x="48" y="136" width="40" height="68" rx="4" fill="#6FA8DC"/>
+  <path d="M108 144H148V200Q148 204 144 204H112Q108 204 108 200Z" fill="#6FA8DC"/>
+  <rect x="168" y="156" width="40" height="48" rx="4" fill="#6FA8DC"/>
+  <!-- Trainable residual: a large, distinct orange cap. -->
+  <path d="M108 144V96Q108 92 112 92H144Q148 92 148 96V144Z" fill="#E8915A"/>
+  <path d="M44 204H212" fill="none" stroke="#1F3A6E" stroke-width="6" stroke-linecap="round"/>
+  <!-- Addition, drawn as geometry so the icon has no font dependency. -->
+  <circle cx="184" cy="68" r="24" fill="#FCE3D3" stroke="#1F3A6E" stroke-width="6"/>
+  <path d="M173 68H195M184 57V79" fill="none" stroke="#1F3A6E" stroke-width="6" stroke-linecap="round"/>
+</svg>
