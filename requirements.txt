@@ -1,0 +1,11 @@
+torch>=2.4
+transformers>=4.47
+safetensors
+sentencepiece
+protobuf
+numpy>=1.26,<2
+pyarrow<20
+bm25s>=0.2
+scipy
+matplotlib
+pytest

@@ -1,0 +1,53 @@
+{
+  "round3-soft-H-2.5-T-0.5": {
+    "mode": "tokenwise",
+    "family": "round3_soft_entropy",
+    "spec": {
+      "kind": "soft_entropy",
+      "threshold": 2.5,
+      "temperature": 0.5,
+      "floor": 0
+    }
+  },
+  "round3-soft-H-3-T-0.5": {
+    "mode": "tokenwise",
+    "family": "round3_soft_entropy",
+    "spec": {
+      "kind": "soft_entropy",
+      "threshold": 3,
+      "temperature": 0.5,
+      "floor": 0
+    }
+  },
+  "round3-soft-H-2-T-1": {
+    "mode": "tokenwise",
+    "family": "round3_soft_entropy",
+    "spec": {
+      "kind": "soft_entropy",
+      "threshold": 2,
+      "temperature": 1,
+      "floor": 0
+    }
+  },
+  "round3-soft-H2-year": {
+    "mode": "tokenwise",
+    "family": "round3_soft_format",
+    "spec": {
+      "kind": "all",
+      "rules": [
+        {
+          "kind": "soft_entropy",
+          "threshold": 2,
+          "temperature": 0.5,
+          "floor": 0
+        },
+        {
+          "kind": "threshold",
+          "field": "year_dash",
+          "threshold": 0.5,
+          "op": "le"
+        }
+      ]
+    }
+  }
+}

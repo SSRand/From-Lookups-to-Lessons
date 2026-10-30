@@ -1,0 +1,71 @@
+{
+  "policy": "first four questions of each sorted NQ/TriviaQA/HotpotQA/WebQ group; chosen independently of model results; profiling only",
+  "workloads": {
+    "short_qa": [
+      {
+        "id": "hotpotqa:5a8c7595554299585d9e36b6",
+        "text": "Answer these questions:\nQuestion: what government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?\nAnswer:"
+      },
+      {
+        "id": "hotpotqa:5a85ea095542994775f606a8",
+        "text": "Answer these questions:\nQuestion: what science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?\nAnswer:"
+      },
+      {
+        "id": "hotpotqa:5a8e3ea95542995a26add48d",
+        "text": "Answer these questions:\nQuestion: the director of the romantic comedy \"Big Stone Gap\" is based in what New York city?\nAnswer:"
+      },
+      {
+        "id": "hotpotqa:5abd94525542992ac4f382d2",
+        "text": "Answer these questions:\nQuestion: 2014 S/S is the debut album of a South Korean boy group that was formed by who?\nAnswer:"
+      },
+      {
+        "id": "nq:-5086230781113414001",
+        "text": "Answer these questions:\nQuestion: where did the word step dad come from?\nAnswer:"
+      },
+      {
+        "id": "nq:2206226301122663145",
+        "text": "Answer these questions:\nQuestion: who decides where the water from the colorado river goes?\nAnswer:"
+      },
+      {
+        "id": "nq:5962620607934830883",
+        "text": "Answer these questions:\nQuestion: dance created for the entertainment of the aristocracy is called?\nAnswer:"
+      },
+      {
+        "id": "nq:-8421380529906453957",
+        "text": "Answer these questions:\nQuestion: who did the music for wonder woman movie?\nAnswer:"
+      },
+      {
+        "id": "triviaqa:tc_1889",
+        "text": "Answer these questions:\nQuestion: picasso moved to Paris in 1901 but where was he born?\nAnswer:"
+      },
+      {
+        "id": "triviaqa:tc_1890",
+        "text": "Answer these questions:\nQuestion: which US President went to the same London university as Mick Jagger?\nAnswer:"
+      },
+      {
+        "id": "triviaqa:tc_1892",
+        "text": "Answer these questions:\nQuestion: who published the General Theory of Relativity in 1915?\nAnswer:"
+      },
+      {
+        "id": "triviaqa:tc_1894",
+        "text": "Answer these questions:\nQuestion: in 1968 the Oscars were postponed for 48 hours because of whose death?\nAnswer:"
+      },
+      {
+        "id": "webq:wq_0",
+        "text": "Answer these questions:\nQuestion: what does jamaican people speak?\nAnswer:"
+      },
+      {
+        "id": "webq:wq_1",
+        "text": "Answer these questions:\nQuestion: what did james k polk do before he was president?\nAnswer:"
+      },
+      {
+        "id": "webq:wq_2",
+        "text": "Answer these questions:\nQuestion: what is the oregon ducks 2012 football schedule?\nAnswer:"
+      },
+      {
+        "id": "webq:wq_3",
+        "text": "Answer these questions:\nQuestion: who plays ken barlow in coronation street?\nAnswer:"
+      }
+    ]
+  }
+}
